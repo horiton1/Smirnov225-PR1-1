@@ -13,27 +13,28 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
 
-        <Label Content="R1:" Grid.Row="0" Grid.Column="0" Margin="5"/>
-        <TextBox x:Name="R1TextBox" Grid.Row="0" Grid.Column="1" Margin="5"/>
+        <TextBlock Grid.Row="0" Grid.Column="0" Margin="16" Padding="12" Height="42">R1</TextBlock>
+        <TextBox x:Name="R1TextBox" Grid.Row="0" Grid.Column="1" Margin="16" Padding="12" Height="Auto"/>
 
-        <Label Content="R2:" Grid.Row="1" Grid.Column="0" Margin="5"/>
-        <TextBox x:Name="R2TextBox" Grid.Row="1" Grid.Column="1" Margin="5"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" Margin="16" Padding="12" Height="42">R2</TextBlock>
+        <TextBox x:Name="R2TextBox" Grid.Row="1" Grid.Column="1" Margin="16" Padding="12" Height="Auto" />
 
-        <Button Content="Решить" Grid.Row="2" Grid.ColumnSpan="2" Margin="5" Click="Button_Click"/>
+        <Button Content="Решить" Grid.Row="2" Grid.ColumnSpan="2" Height="22" Click="Button_Click"/>
 
-        <Label Content="S1:" Grid.Row="3" Grid.Column="0" Margin="5"/>
-        <TextBox x:Name="S1TextBox" Grid.Row="3" Grid.Column="1" Margin="5" IsReadOnly="True"/>
+        <TextBlock Grid.Row="3" Grid.Column="0" Margin="16" Padding="12" Height="42">S1</TextBlock>
+        <TextBlock x:Name="S1TextBox" Grid.Row="3" Grid.Column="1" Margin="16" Padding="12" Height="Auto" />
 
-        <Label Content="S2:" Grid.Row="4" Grid.Column="0" Margin="5"/>
-        <TextBox x:Name="S2TextBox" Grid.Row="4" Grid.Column="1" Margin="5" IsReadOnly="True"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" Margin="16" Padding="12" Height="42"> S2</TextBlock>
+        <TextBlock x:Name="S2TextBox" Grid.Row="4" Grid.Column="1" Margin="16" Padding="12" Height="Auto" />
 
-        <Label Content="S3:" Grid.Row="5" Grid.Column="0" Margin="5"/>
-        <TextBox x:Name="S3TextBox" Grid.Row="5" Grid.Column="1" Margin="5" IsReadOnly="True"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" Margin="16" Padding="12" Height="42">S3</TextBlock>
+        <TextBlock x:Name="S3TextBox" Grid.Row="5" Grid.Column="1" Margin="16" Padding="12" Height="Auto" Width="150" />
     </Grid>
 </Window>
