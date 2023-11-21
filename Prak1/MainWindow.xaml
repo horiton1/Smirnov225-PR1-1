@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Prak1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" FontFamily="Candara" FontSize="14">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -20,21 +20,21 @@
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
 
-        <TextBlock Grid.Row="0" Grid.Column="0" Margin="16" Padding="12" Height="42">R1</TextBlock>
+        <TextBlock Grid.Row="0" Grid.Column="0" Margin="16" Padding="12" Height="42" FontWeight="bold" Foreground="#243238">Введите R1</TextBlock>
         <TextBox x:Name="R1TextBox" Grid.Row="0" Grid.Column="1" Margin="16" Padding="12" Height="Auto"/>
 
-        <TextBlock Grid.Row="1" Grid.Column="0" Margin="16" Padding="12" Height="42">R2</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="0" Margin="16" Padding="12" Height="42" FontWeight="bold" Foreground="#243238">Введите R2</TextBlock>
         <TextBox x:Name="R2TextBox" Grid.Row="1" Grid.Column="1" Margin="16" Padding="12" Height="Auto" />
 
-        <Button Content="Решить" Grid.Row="2" Grid.ColumnSpan="2" Height="22" Click="Button_Click"/>
+        <Button Content="Решить" Grid.Row="2" Grid.ColumnSpan="2" Height="22" Click="Button_Click" Foreground="#FFF6A5" Background="Black"/>
 
-        <TextBlock Grid.Row="3" Grid.Column="0" Margin="16" Padding="12" Height="42">S1</TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" Margin="16" Padding="12" Height="42" FontWeight="bold" Foreground="#78909c">S1</TextBlock>
         <TextBlock x:Name="S1TextBox" Grid.Row="3" Grid.Column="1" Margin="16" Padding="12" Height="Auto" />
 
-        <TextBlock Grid.Row="4" Grid.Column="0" Margin="16" Padding="12" Height="42"> S2</TextBlock>
+        <TextBlock Grid.Row="4" Grid.Column="0" Margin="16" Padding="12" Height="42" FontWeight="bold" Foreground="#78909c">S2</TextBlock>
         <TextBlock x:Name="S2TextBox" Grid.Row="4" Grid.Column="1" Margin="16" Padding="12" Height="Auto" />
 
-        <TextBlock Grid.Row="5" Grid.Column="0" Margin="16" Padding="12" Height="42">S3</TextBlock>
+        <TextBlock Grid.Row="5" Grid.Column="0" Margin="16" Padding="12" Height="42" FontWeight="bold" Foreground="#78909c">S3</TextBlock>
         <TextBlock x:Name="S3TextBox" Grid.Row="5" Grid.Column="1" Margin="16" Padding="12" Height="Auto" Width="150" />
     </Grid>
 </Window>
